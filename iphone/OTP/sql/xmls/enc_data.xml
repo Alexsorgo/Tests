@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Response>
+  <SenderInfo>
+    <SessionInfo id="980834"/>
+  </SenderInfo>
+  <StatusBlock>
+    <Status>ERROR</Status>
+    <ErrorCode>BAD_USER_PASSWORD</ErrorCode>
+    <ErrorText>Incorrect user password</ErrorText>
+  </StatusBlock>
+</Response>

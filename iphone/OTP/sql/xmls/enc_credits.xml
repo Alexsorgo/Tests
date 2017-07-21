@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<iFOBSWebServicePacket>
+	<PacketHeader>
+		<SenderInfo>
+			<Application device="0" os="iOS10.0.2" executable="Pivdenny" version="1.2.0.1135" apiVersion="1.0.0" name="iFOBS-iPhone" hard="iPhone8,1"/>
+			<SessionInfo id="88536" dns="" osuser=""/>
+			<Locale lang="en"/>
+		</SenderInfo>
+		<AuthInfo>
+			<User login="SORGO" password="d1fd17280f71fcf6dafe4684e8e53048"/>
+		</AuthInfo>
+	</PacketHeader>
+	<PacketBody>
+		<CallingService servicename="DealList">
+			<Parameters/>
+		</CallingService>
+	</PacketBody>
+	<PacketSign/>
+</iFOBSWebServicePacket>

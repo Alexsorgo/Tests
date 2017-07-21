@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Response>
+  <SenderInfo>
+    <SessionInfo id="1046517"/>
+  </SenderInfo>
+  <StatusBlock>
+    <Status>OK</Status>
+  </StatusBlock>
+  <Parameters>
+    <FirstTxId>1</FirstTxId>
+    <LastTxId>19</LastTxId>
+    <CanContinue>false</CanContinue>
+    <TxCount>19</TxCount>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>1</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26252000000198</CardAccount>
+        <AccountId>89511</AccountId>
+        <CardNo>989891******0022</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41560</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName>daf</CardName>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>94EEE94D1CCC704A4EE52A0BDFEBC85E</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41663</ContractNumber>
+        <EnrolledDate>27-02-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000749</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>2</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300009</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>262560021231</CardAccount>
+        <AccountId>88169</AccountId>
+        <CardNo>989891******0366</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>40218</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300009</BranchDesc>
+        <CardName/>
+        <TempLimitId>2519</TempLimitId>
+        <TempLimitFrom>2017-01-31</TempLimitFrom>
+        <TempLimitTill>2017-02-01</TempLimitTill>
+        <TempLimitName>VC CurrentUAH979!!!!</TempLimitName>
+        <MainLimitName>VC Current UAH 1</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>000DC453570901284CB93843AB3F23B1</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>40301</ContractNumber>
+        <EnrolledDate>17-03-2016</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000189</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>3</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-01-2020</EndDate>
+        <CardAccount>26258800000035</CardAccount>
+        <AccountId>89372</AccountId>
+        <CardNo>989891******0055</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41421</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>96582B78B9A75FB9B6DDE58A1B248429</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41524</ContractNumber>
+        <EnrolledDate>23-01-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000741</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>4</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26257800000036</CardAccount>
+        <AccountId>89531</AccountId>
+        <CardNo>989891******0023</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41580</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>91B3E035886A707699F45A08EA0AB54F</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41683</ContractNumber>
+        <EnrolledDate>02-03-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000752</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>5</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300009</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>19-07-2017</EndDate>
+        <CardAccount>26251800039757</CardAccount>
+        <AccountId>89371</AccountId>
+        <CardNo>989891******4055</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41420</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>1</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300009</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>57E5BFDE3EF0CC671BD0DD571A496390</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41523</ContractNumber>
+        <EnrolledDate>23-01-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000227</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>6</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-07-2021</EndDate>
+        <CardAccount>26256000000473</CardAccount>
+        <AccountId>89716</AccountId>
+        <CardNo>472472******5509</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41765</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Free access UAH</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>9904672FE88045ACD7838E6D30C2699B</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41868</ContractNumber>
+        <EnrolledDate>06-07-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>262-26256000000473</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>7</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>19-07-2017</EndDate>
+        <CardAccount>26256000000473</CardAccount>
+        <AccountId>89716</AccountId>
+        <CardNo>472472******5491</CardNo>
+        <Contract/>
+        <EmbossedName>EMB NAME</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41765</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>1</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Current UAH 1</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>25D4F12A66854C791D2AA97B15202BB9</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41868</ContractNumber>
+        <EnrolledDate>06-07-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>262-26256000000473</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>8</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300003</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-07-2021</EndDate>
+        <CardAccount>26257000000472</CardAccount>
+        <AccountId>89715</AccountId>
+        <CardNo>472472******5475</CardNo>
+        <Contract/>
+        <EmbossedName>EMB NAME</EmbossedName>
+        <State>SUSPENDED</State>
+        <ContractId>41764</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300003</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Current UAH 1</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>7974203ECEDD59C4B1DFE8D439115B5B</CardId>
+        <CardStateId>1</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus/>
+        <ShowCard/>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41867</ContractNumber>
+        <EnrolledDate>06-07-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>262-26257000000472</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>9</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300003</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-07-2021</EndDate>
+        <CardAccount>26257000000472</CardAccount>
+        <AccountId>89715</AccountId>
+        <CardNo>472472******5483</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>SUSPENDED</State>
+        <ContractId>41764</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300003</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Free access UAH</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>5874B9137DCED76B215364B5C769AE5E</CardId>
+        <CardStateId>1</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus/>
+        <ShowCard/>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41867</ContractNumber>
+        <EnrolledDate>06-07-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>262-26257000000472</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>10</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-07-2021</EndDate>
+        <CardAccount>26257000000472</CardAccount>
+        <AccountId>89713</AccountId>
+        <CardNo>472472******5467</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41762</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Free access UAH</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>18C88F995FE4BA91C40CABF17CAC63B7</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41865</ContractNumber>
+        <EnrolledDate>24-09-2010</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>112233</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>544512.77</Ledger>
+        <Available>544512.77</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>11</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>2625060110000</CardAccount>
+        <AccountId>85265</AccountId>
+        <CardNo>989891******0314</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>37594</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName>frick</CardName>
+        <TempLimitId>1300</TempLimitId>
+        <TempLimitFrom>2016-11-02</TempLimitFrom>
+        <TempLimitTill>2016-11-03</TempLimitTill>
+        <TempLimitName>VC Current UAH979+++</TempLimitName>
+        <MainLimitName>VC Current UAH 1</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>999EE85462B1A34F78E33FCA681C2CFD</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <CreditLimit>
+          <TotalAmount>543123.49</TotalAmount>
+          <UsedlAmount>0</UsedlAmount>
+          <InterestRate>24.00</InterestRate>
+          <OutstandingAmount>0</OutstandingAmount>
+          <Penalty/>
+          <PastDue/>
+          <PastDueInterest/>
+          <AllDebtBalance/>
+          <DueDate/>
+        </CreditLimit>
+        <ContractNumber>37717</ContractNumber>
+        <EnrolledDate>17-10-2013</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000039</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>544512.77</Ledger>
+        <Available>544512.77</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>12</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>2625060110000</CardAccount>
+        <AccountId>85265</AccountId>
+        <CardNo>989891******0163</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>37594</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId>1283</TempLimitId>
+        <TempLimitFrom>2015-12-04</TempLimitFrom>
+        <TempLimitTill>2015-12-05</TempLimitTill>
+        <TempLimitName>VC Current UAH 979</TempLimitName>
+        <MainLimitName>VC Current UAH 979</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>07A90C9B046C1ED6DBFC01792ADE6063</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <CreditLimit>
+          <TotalAmount>543123.49</TotalAmount>
+          <UsedlAmount>0</UsedlAmount>
+          <InterestRate>24.00</InterestRate>
+          <OutstandingAmount>0</OutstandingAmount>
+          <Penalty/>
+          <PastDue/>
+          <PastDueInterest/>
+          <AllDebtBalance/>
+          <DueDate/>
+        </CreditLimit>
+        <ContractNumber>37717</ContractNumber>
+        <EnrolledDate>17-10-2013</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000039</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>544512.77</Ledger>
+        <Available>544512.77</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>13</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>2625060110000</CardAccount>
+        <AccountId>85265</AccountId>
+        <CardNo>989891*****0089</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>CANCELED</State>
+        <ContractId>37594</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId>1</TempLimitId>
+        <TempLimitFrom>2016-12-13</TempLimitFrom>
+        <TempLimitTill>2016-12-14</TempLimitTill>
+        <TempLimitName>VC Current UAH 1</TempLimitName>
+        <MainLimitName>VC Current UAH 1</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>D050FF39B3E62F6318591EBEAC77D484</CardId>
+        <CardStateId>2</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus/>
+        <ShowCard/>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <CreditLimit>
+          <TotalAmount>543123.49</TotalAmount>
+          <UsedlAmount>0</UsedlAmount>
+          <InterestRate>24.00</InterestRate>
+          <OutstandingAmount>0</OutstandingAmount>
+          <Penalty/>
+          <PastDue/>
+          <PastDueInterest/>
+          <AllDebtBalance/>
+          <DueDate/>
+        </CreditLimit>
+        <ContractNumber>37717</ContractNumber>
+        <EnrolledDate>17-10-2013</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000039</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>14</TxId>
+      <Currency>USD</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26257000039116</CardAccount>
+        <AccountId>87449</AccountId>
+        <CardNo>989891******0113</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>39558</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>840</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId>299</TempLimitId>
+        <TempLimitFrom>2015-07-21</TempLimitFrom>
+        <TempLimitTill>2015-07-24</TempLimitTill>
+        <TempLimitName>VC Instant USD</TempLimitName>
+        <MainLimitName>VC Instant USD</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>4052B43D359E3F3208B23B8D7722D464</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>39641</ContractNumber>
+        <EnrolledDate>01-07-2015</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000172</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>15</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>2625350021673</CardAccount>
+        <AccountId>88810</AccountId>
+        <CardNo>989891******0049</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>40859</ContractId>
+        <IsPrimary>false</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>VC Instant UAH</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>E5A6228F4B9C1B6569130DC67D28BA84</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>40962</ContractNumber>
+        <EnrolledDate>16-11-2016</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000200</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>16</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300009</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26255800239757</CardAccount>
+        <AccountId>89451</AccountId>
+        <CardNo>989891******0024</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41500</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300009</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>53AC2EE4880768F5FA05EDBAEA506E58</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41603</ContractNumber>
+        <EnrolledDate>16-02-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000231</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>17</TxId>
+      <Currency>EUR</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26259800000034</CardAccount>
+        <AccountId>89513</AccountId>
+        <CardNo>989891******0223</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41562</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>978</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>E9EB686D735D5EF375943A332528F62E</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41665</ContractNumber>
+        <EnrolledDate>27-02-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000751</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>18</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300009</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>2625780011673</CardAccount>
+        <AccountId>89471</AccountId>
+        <CardNo>989891******0030</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41520</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300009</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>F13AC0AE9D3FA35F301992E829E637DB</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion/>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41623</ContractNumber>
+        <EnrolledDate>21-02-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000232</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+    <AccountDetails>
+      <Balances>
+        <Ledger>0.00</Ledger>
+        <Available>0.00</Available>
+        <ProjectedLedger>0.00</ProjectedLedger>
+        <OverdraftLimit>0.00</OverdraftLimit>
+        <Moved/>
+        <ActualizedTime>24-09-2010 00:00:00</ActualizedTime>
+      </Balances>
+      <Type>CARD</Type>
+      <OwnerName>АБЕРНАТИ ЭЛИС</OwnerName>
+      <OwnerAddress/>
+      <Status/>
+      <Access/>
+      <TxId>19</TxId>
+      <Currency>UAH</Currency>
+      <BranchId>300006</BranchId>
+      <AccountName/>
+      <Card>
+        <EndDate>31-12-2020</EndDate>
+        <CardAccount>26259800000034</CardAccount>
+        <AccountId>89512</AccountId>
+        <CardNo>989891******0048</CardNo>
+        <Contract/>
+        <EmbossedName>ALICE ABERNATHY</EmbossedName>
+        <State>ACTIVE</State>
+        <ContractId>41561</ContractId>
+        <IsPrimary>true</IsPrimary>
+        <Type>Visa Classic Standard</Type>
+        <CurrencyCode>980</CurrencyCode>
+        <Alarmed>0</Alarmed>
+        <OwnerIdentifyCode>2950312301</OwnerIdentifyCode>
+        <BranchDesc>Банк 300006</BranchDesc>
+        <CardName/>
+        <TempLimitId/>
+        <TempLimitFrom/>
+        <TempLimitTill/>
+        <TempLimitName/>
+        <MainLimitName>Free</MainLimitName>
+        <SavingAccountNo/>
+        <CardId>399C9122D3EC11C834E586D667D42F4B</CardId>
+        <CardStateId>0</CardStateId>
+        <SoftStopList>0</SoftStopList>
+        <ResponseId/>
+        <SwitchStatus>CANBLOCKCARD</SwitchStatus>
+        <ShowCard>true</ShowCard>
+        <PictureVersion>161</PictureVersion>
+        <CanUnblock>false</CanUnblock>
+        <ContractNumber>41664</ContractNumber>
+        <EnrolledDate>27-02-2017</EnrolledDate>
+        <DisplayOrder>0</DisplayOrder>
+        <LegalContractNumber>0000750</LegalContractNumber>
+        <FrontStatusDate/>
+        <OwnFunds/>
+      </Card>
+    </AccountDetails>
+  </Parameters>
+</Response>
