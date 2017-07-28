@@ -56,6 +56,9 @@ ukraine_accno = constants.ukraine_accno
 bank_accno = constants.bank_accno
 bank_inn = constants.bank_inn
 name = constants.name
+platformVersion = constants.iphoneVersion
+deviceName = constants.iphoneName
+udid = constants.iphoneudid
 
 
 class Iphonerules(unittest.TestCase):
@@ -77,10 +80,9 @@ class Iphonerules(unittest.TestCase):
                 # 'app': app,
                 'appium-version': '1.6.3',
                 'platformName': 'iOS',
-                'platformVersion': '10.1.1',
-                'deviceName': "Alexandr Pogulyaka’s iPad",
-                # 'deviceName': 'iPhone 7 Plus',
-                'udid': 'cd31170244fc70f532ea362e9ecab74deb579ed6',
+                'platformVersion': platformVersion,
+                'deviceName': deviceName,
+                'udid': udid,
                 'launchTimeout': 500000,
                 # 'automationName': 'XCUITest',
                 'realDeviceLogger': '/usr/local/lib/node_modules/deviceconsole/deviceconsole',
@@ -107,8 +109,8 @@ class Iphonerules(unittest.TestCase):
                 lang += 1
         # login_phone(self, login, password, lang))
         login_planshet(self, login, password, lang)
-        self.assertTrue(self.assertTrue(self.driver.find_element_by_id(
-                'navigationTitleIcon')))
+        self.assertTrue(self.driver.find_element_by_id(
+                'navigationTitleIcon'))
 
 
     # IFMOB-613:Проверка ввода при некорректных значениях
@@ -168,7 +170,7 @@ class Iphonerules(unittest.TestCase):
             self.assertTrue(self.driver.find_element_by_id(
                 'navigationTitleIcon'))
         except:
-            directory = '%s/' % os.getcwd()
+            directory = '%s/screenshots/' % os.getcwd()
             file_name = 'test_03.png'
             self.driver.save_screenshot(directory + file_name)
             raise

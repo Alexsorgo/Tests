@@ -26,3 +26,9 @@ new_pass = '123'
 conf_pass = '123'
 
 busy_log = 'HEDRIX'
+
+androidVersion = '7.1.2'
+androidName = 'Nexus 5X'
+iphoneVersion = '10.1.1'
+iphoneName = 'Alexandr Pogulyaka’s iPad'
+iphoneudid = 'cd31170244fc70f532ea362e9ecab74deb579ed6'

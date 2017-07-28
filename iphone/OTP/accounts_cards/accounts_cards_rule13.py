@@ -36,7 +36,7 @@ def accounts_cards_rule13(self, login, password):
                 pass
             sleep(3)
             acc = self.driver.find_element_by_xpath('/XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeStaticText')
-            number = re.findall(r'\(\d+\)', acc.get_attribute('Value'))[0]
+            number = re.findall(r'\(\d+\)', acc.get_attribute('value'))[0]
             count = number.strip(')').lstrip('(')
             acc_rule13(login)
             sleep(5)
@@ -60,7 +60,7 @@ def accounts_cards_rule13(self, login, password):
             sleep(3)
             acc = self.driver.find_element_by_xpath(
                 '/XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeStaticText')
-            number = re.findall(r'\(\d+\)', acc.get_attribute('Value'))[0]
+            number = re.findall(r'\(\d+\)', acc.get_attribute('value'))[0]
             count = number.strip(')').lstrip('(')
             acc_rule13(login)
             sleep(5)
@@ -86,7 +86,7 @@ def accounts_cards_rule13(self, login, password):
             sleep(3)
             acc = self.driver.find_element_by_xpath(
                 '/XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeStaticText')
-            number = re.findall(r'\(\d+\)', acc.get_attribute('Value'))[0]
+            number = re.findall(r'\(\d+\)', acc.get_attribute('value'))[0]
             count = number.strip(')').lstrip('(')
             acc_rule13(login)
             sleep(5)

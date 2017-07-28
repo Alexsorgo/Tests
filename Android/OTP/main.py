@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import getopt
-import unittest
 import os
-
 import sys
+import unittest
 from time import sleep
 
 from appium import webdriver
@@ -21,6 +20,8 @@ from transfers.rule import rule_17, rule_18, rule_24, rule_23, rule_17and18, rul
 login = constants.login
 password = constants.password
 valuta = constants.valuta
+platformVersion = constants.androidVersion
+deviceName = constants.androidName
 
 
 def main(argv):
@@ -60,10 +61,8 @@ class Androidrules(unittest.TestCase):
                 # 'app': app,
                 'appium-version': '1.6.5',
                 'platformName': 'Android',
-                # 'platformVersion': '6.0.1',
-                # 'deviceName': 'Galaxy S5',
-                'platformVersion': '7.1.2',
-                'deviceName': 'Nexus 5X',
+                'platformVersion': platformVersion,
+                'deviceName': deviceName,
                 'launchTimeout': 500000,
                 'appPackage': 'ua.com.cs.ifobs.mobile.android.otp',
                 'appActivity': 'ua.com.cs.ifobs.mobile.android.activity.OtpMainActivity',
@@ -80,6 +79,9 @@ class Androidrules(unittest.TestCase):
     # IFMOB-613:Проверка ввода при некорректных значениях
     def test_01(self):
         try:
+            self.driver.implicitly_wait(60)
+            sleep(10)
+            print self.driver.contexts
             invalid_psw(self, login, password)
         except:
             self.driver.switch_to.context('NATIVE_APP')

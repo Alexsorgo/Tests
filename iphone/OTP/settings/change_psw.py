@@ -6,10 +6,8 @@ from time import sleep
 
 from selenium.common.exceptions import NoSuchElementException
 
-from database.main import sql_req
-from login_planshet import login_planshet
-
 from iphone.OTP.database.rules import passw_sql
+from iphone.OTP.login_planshet import login_planshet
 
 
 def change_psw(self, login, password):
