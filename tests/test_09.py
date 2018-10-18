@@ -7,7 +7,7 @@ from utils.logs import log
 from utils.verify import Verify
 
 
-class TestC09(BaseTest):
+class Test_w(BaseTest):
     """
     Nynja registration with max limit char in first name
     """
@@ -16,7 +16,7 @@ class TestC09(BaseTest):
     FIRST_NAME = config.INCORRECT_FIRSTNAME
     LAST_NAME = config.CHINA_LASTNAME
 
-    def test_c09(self):
+    def test_w(self):
         login = LoginScreen(self.driver)
         log.info("Registration max limit firstname chars")
         if not self.driver.find_elements(*RegistrationPageLocators.CHECK_PAGE):
