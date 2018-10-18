@@ -1,0 +1,5 @@
+VOICE_NAME = 'Voice message'
+MEDIA_NAME = 'Photo'
+LOCATION_NAME = 'Location'
+FILE_NAME = 'File'
+CONTACT_NAME = 'Contact'

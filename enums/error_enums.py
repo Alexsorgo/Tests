@@ -1,0 +1,11 @@
+MAX_USERNAME = 'Username must be at more 32 characters.'
+MIN_USERNAME = 'Username must be at least 2 characters.'
+FIRSTNAME_REQUIRED = 'First name is needed so other people know with whom they are talking.'
+MAX_FIRSTNAME = 'First Name must be at more 32 characters.'
+MAX_LASTNAME = 'Last Name must be at more 32 characters.'
+NOT_ALLOW_NUMBER = 'You are not allowed to login.'
+NOT_VALID_NUMBER = 'Invalid number'
+GROUP_NAME_MIN = "Please enter at least 1 symbol"
+EMPTY_ALIAS = 'Sorry, empty alias is invalid.'
+DELETE_GROUP = 'Please add another admin before leaving the chat'
+NO_SEARCH_RESULT = 'Sorry, no search result'
