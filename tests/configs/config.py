@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Constants file
 
-APPIUM_SERVER_URL = "http://localhost:4723/wd/hub"
+APPIUM_SERVER_URL = "http://0.0.0.0:4723/wd/hub"
 PLATFORM_NAME = 'ios'  # either "Android" or "iOS"
 PLATFORM_VERSION = '11.4'
 DEVICE_NAME = "Apple iPhone X"
