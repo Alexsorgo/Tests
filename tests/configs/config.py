@@ -3,30 +3,8 @@
 
 APPIUM_SERVER_URL = "http://127.0.0.1:4723/wd/hub"
 PLATFORM_NAME = 'ios'  # either "Android" or "iOS"
-# PLATFORM_VERSION = '7.1.2'
-# DEVICE_NAME = 'Nexus 5X'
-# PLATFORM_VERSION = '10.3.3'
-PLATFORM_VERSION = '11.3.1'
-# PLATFORM_VERSION = '11.2.1'
-# PLATFORM_VERSION = '12.0'
-# DEVICE_NAME = 'iPhone6'
-# DEVICE_NAME = 'Tec’s iPhone'
-DEVICE_NAME = 'sorgo’s iPhone'
-# DEVICE_NAME = 'iPhone (Tec)'
-# UDID = '00bf1683ec8c4194969b60cbc40fa06772d64249'
-# UDID = '5bf6c17a74974c016f3aa73d911d43e52f908c48'
-UDID = '46d80597f089a4a87a5a1eabbdf2f52991461047'
-# UDID = '504f50605e2a0a67aa6ec862c2f4d0f42910c711'
-PASSWORD = '272b9acb0aaf1902c8b826de040ffabdf7cda8ca3f8355b0d117075c88a1c0d3ce7b3437718d1cbf54b5e5a996b1d6d749964671' \
-           'da49c9b20631ef7dc592a19c25369c6dbcccdc1a33944e18687eb801f74ff4775893edd5368f0037674feb70 '
-MY_NUMBER = '8613151713157' # china
-# MY_NUMBER = '12566018988' # america
-# SERVER = '34.217.41.22'  # load
-# SERVER = '54.201.154.141' #  dev
-# SERVER = '35.198.110.223' # pre-prod
-SERVER = '35.198.84.145' # prod
-# SERVER = '192.168.0.103'
-PROTOCOL = 'version/9'
+PLATFORM_VERSION = '11.4'
+DEVICE_NAME = 'Apple iPhone X'
 BUNDLE_ID = 'com.nynja.mobile.communicator'
 
 

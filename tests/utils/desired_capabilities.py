@@ -23,9 +23,6 @@ class DC:
                 # "automationName": "UiAutomator2"
                 }
 
-        if config.UDID:
-            caps.update({"udid": config.UDID})
-
         # TODO: This for future implementation cross platform feature
         # if caps["platformName"] == "iOS":
         #     caps.update({"xcodeOrgId": config.xcode_org_id, "xcodeSigningId": config.xcode_signing_id,
