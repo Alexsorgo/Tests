@@ -12,7 +12,7 @@ class DC:
         """
         log.info("Set desired capabilities for %s", config.PLATFORM_NAME)
 
-        caps = {"deviceName": config.DEVICE_NAME + " Device",
+        caps = {"deviceName": config.DEVICE_NAME,
                 "platformName": config.PLATFORM_NAME,
                 "platformVersion": config.PLATFORM_VERSION,
                 'bundleId': config.BUNDLE_ID,
@@ -22,6 +22,7 @@ class DC:
                 # TODO: Issue with send keys action (Appium)
                 # "automationName": "UiAutomator2"
                 }
+        print caps
 
         # TODO: This for future implementation cross platform feature
         # if caps["platformName"] == "iOS":

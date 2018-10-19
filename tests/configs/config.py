@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Constants file
 
-APPIUM_SERVER_URL = "http://127.0.0.1:4723/wd/hub"
+APPIUM_SERVER_URL = "http://localhost:4723/wd/hub"
 PLATFORM_NAME = 'ios'  # either "Android" or "iOS"
-PLATFORM_VERSION = '11.4'
-DEVICE_NAME = 'Apple iPhone X'
+PLATFORM_VERSION = '12.0'
+DEVICE_NAME = "sorgo's iPhone"
 BUNDLE_ID = 'com.nynja.mobile.communicator'
 
 
