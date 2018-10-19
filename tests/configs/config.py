@@ -3,8 +3,8 @@
 
 APPIUM_SERVER_URL = "http://localhost:4723/wd/hub"
 PLATFORM_NAME = 'ios'  # either "Android" or "iOS"
-PLATFORM_VERSION = '12.0'
-DEVICE_NAME = "sorgo's iPhone"
+PLATFORM_VERSION = '11.4'
+DEVICE_NAME = "Apple iPhone X"
 BUNDLE_ID = 'com.nynja.mobile.communicator'
 
 
