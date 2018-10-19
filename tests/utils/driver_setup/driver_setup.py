@@ -1,5 +1,5 @@
 from tests.utils.driver_setup.custom_selenium_actions import CustomActions
-from tests.utils import EventListener
+from tests.utils.driver_setup.event_listener import EventListener
 
 
 class Drivers:

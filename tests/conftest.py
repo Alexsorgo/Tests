@@ -2,10 +2,9 @@ import pytest
 
 from tests.configs import config
 from tests.utils.desired_capabilities import DC
-from tests.utils import Drivers
-from tests.utils.logs import log
+from tests.utils.driver_setup.driver_setup import Drivers
 
-pytest_plugins = "fixtures.global_setup"
+from tests.utils.logs import log
 
 
 @pytest.fixture()

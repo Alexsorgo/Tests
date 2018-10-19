@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.events import EventFiringWebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.utils import attribute_presents
+from tests.utils.driver_setup.custom_expected_conditions import attribute_presents
 from tests.utils.logs import log
 
 
