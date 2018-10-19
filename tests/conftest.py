@@ -21,8 +21,7 @@ def base_driver_setup(request):
 
     log.debug("Start test: '{}'.".format(test_name))
 
-    log.debug("Appium Server: {}".format(config.APPIUM_SERVER_URL))
-    driver = Drivers.create_mobile(config.APPIUM_SERVER_URL, DC.set_capabilities())
+    driver = Drivers.create_mobile("http://0.0.0.0:4723/wd/hub", {})
     request.cls.driver = driver
 
     yield

@@ -22,7 +22,6 @@ class DC:
                 # TODO: Issue with send keys action (Appium)
                 # "automationName": "UiAutomator2"
                 }
-        print caps
 
         # TODO: This for future implementation cross platform feature
         # if caps["platformName"] == "iOS":
