@@ -1,31 +1,67 @@
-from configs import config
-from enums import error_enums
-from model.locators import RegistrationPageLocators
-from screens.login_screen import LoginScreen
-from tests.base_test import BaseTest
-from utils.logs import log
-from utils.verify import Verify
+# -*- coding: utf-8 -*-
+import unittest
+
+from appium import webdriver
+
+import constants
+from login_planshet import login_planshet
+
+login = constants.login
+password = constants.password
+valuta = constants.valuta
+ukraine_mfo = constants.ukraine_mfo
+ukraine_inn = constants.ukraine_inn
+ukraine_accno = constants.ukraine_accno
+bank_accno = constants.bank_accno
+bank_inn = constants.bank_inn
+name = constants.name
+platformVersion = constants.iphoneVersion
+deviceName = constants.iphoneName
+udid = constants.iphoneudid
 
 
-class Test_w(BaseTest):
-    """
-    Nynja registration with max limit char in first name
-    """
-    COUNTRY_CODE_NUMBER = config.CHINA_COUNTRY_CODE
-    PHONE_NUMBER = config.CHINA_NUMBER
-    FIRST_NAME = config.INCORRECT_FIRSTNAME
-    LAST_NAME = config.CHINA_LASTNAME
+class Iphonerules(unittest.TestCase):
 
-    def test_w(self):
-        login = LoginScreen(self.driver)
-        log.info("Registration max limit firstname chars")
-        if not self.driver.find_elements(*RegistrationPageLocators.CHECK_PAGE):
-            login.set_full_number(self.COUNTRY_CODE_NUMBER, self.PHONE_NUMBER)
-            login.tap_confirm_btn()
-            login.set_sms()
-        login.set_first_name(self.FIRST_NAME)
-        login.set_last_name(self.LAST_NAME)
-        login.tap_done_btn()
+    def setUp(self):
+        # set up appium
+        self.driver = webdriver.Remote(
+            command_executor='http://0.0.0.0:4723/wd/hub',
+            desired_capabilities={
+                'bundleId': 'com.nynja.mobile.communicator',
+                # 'app': app,
+                'appium-version': '1.6.3',
+                'platformName': 'iOS',
+                'platformVersion': platformVersion,
+                'deviceName': deviceName,
+                'udid': udid,
+                'launchTimeout': 500000,
+                # 'automationName': 'XCUITest',
+                'realDeviceLogger': '/usr/local/lib/node_modules/deviceconsole/deviceconsole',
+                "useNewWDA": True,
+                'unicodeKeyboard': True
+            })
 
-        log.info("Verify user is not registered.")
-        Verify.true(login.error_verify(error_enums.MAX_FIRSTNAME), "Limit doesn't work")
+    def tearDown(self):
+        self.driver.quit()
+
+    def test_01(self):
+        lang = 0
+        while lang < 3:
+            try:
+                if lang == 0:
+                    self.driver.find_element_by_id('Remember login?')
+                elif lang == 1:
+                    self.driver.find_element_by_id('Запомнить логин?')
+                elif lang == 2:
+                    self.driver.find_element_by_id("Запам'ятати логін?")
+                break
+            except:
+                lang += 1
+        login_planshet(self, login, password, lang)
+        self.assertTrue(self.driver.find_element_by_id(
+                'navigationTitleIcon'))
+
+
+if __name__ == '__main__':
+    suite = unittest.TestLoader().loadTestsFromTestCase(Iphonerules)
+    unittest.TextTestRunner(verbosity=2).run(suite)
