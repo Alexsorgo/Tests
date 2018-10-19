@@ -22,12 +22,10 @@ class Test_w(BaseTest):
         login = LoginScreen(self.driver)
         log.info("Registration max limit firstname chars")
         if not self.driver.find_elements(*(By.ID, 'How would you like to be called?')):
-            try:
-                self.driver.find_element_by_id('GET STARTED').click()
-            except NoSuchElementException:
-                login.set_full_number(self.COUNTRY_CODE_NUMBER, self.PHONE_NUMBER)
-                login.tap_confirm_btn()
-                login.set_sms()
+            self.driver.find_element_by_id('GET STARTED').click()
+            login.set_full_number(self.COUNTRY_CODE_NUMBER, self.PHONE_NUMBER)
+            login.tap_confirm_btn()
+            login.set_sms()
         login.set_first_name(self.FIRST_NAME)
         login.set_last_name(self.LAST_NAME)
         login.tap_done_btn()
